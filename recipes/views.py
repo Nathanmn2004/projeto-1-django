@@ -8,3 +8,6 @@ def sobre(request):
 
 def contato(request):
     return HttpResponse('Contato')
+
+def my_view(request):
+    return HttpResponse('HOME')
