@@ -3,12 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def sobre(request):
-    return HttpResponse('Sobre')
-
-
-def contato(request):
-    return HttpResponse('Contato')
 
 def home(request):
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html')
